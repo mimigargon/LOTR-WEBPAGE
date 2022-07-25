@@ -1,0 +1,18 @@
+@import '../App.scss';
+
+.home-container {
+    min-height: 100vh;
+    background-image: url("../images/stardust-1920x1080.png");
+
+    h1 {
+        font-family: $title-font;
+        padding-top: 35px;
+        font-size: 75px;
+        text-align: center;
+        background: linear-gradient(to right, $first-color 0%, $second-color 20%, $third-color 50%, $second-color 80%, $first-color 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+}

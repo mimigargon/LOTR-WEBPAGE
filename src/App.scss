@@ -1,5 +1,29 @@
-.app {
-  text-align: center;
+@import url('http://fonts.cdnfonts.com/css/tolkien');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+$title-font: 'Tolkien', sans-serif;
+$second-font: 'Cinzel', serif; 
+$first-color: #af4840;
+$second-color: #ce8d62;
+$third-color: #FCD882; 
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
+.app {
+   nav {
+    background-image: url("./images/stardust-1920x1080.png");
+    font-family: $second-font;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    .link {
+        color: $second-color;
+        text-decoration: none;
+    }
+   }
+
+}
 
